@@ -310,7 +310,7 @@ document.querySelectorAll('.cart-btn').forEach(
    {
     confirmOrder = confirm("Place order and print receipt?")
     if (confirmOrder){
-     document.querySelector('#success-message').innerHTML = "Your order has been submitted and your receipt will be printed"
+     document.querySelector('#success-message').innerHTML = "Thanks for your patronage!"
      document.querySelector('#success-message').style.display = "block"
      setTimeout(() => {
       document.querySelector('#success-message').style.display = "none"
