@@ -177,7 +177,7 @@ function updateCart(tag){
  const servings = prompt(`How many servings of ${selectedDish.name} are you ordering?`)
  const dishQuantity = parseInt(servings)
  if (isNaN(dishQuantity)){
-  alert('Please enter a valid number. Alphabets, symbols and emojis are not allowed')
+  alert('Please enter a valid number. Alphabets, symbols and emojis are not allowed!')
  } else {
   cartItem = {
    image: selectedDish.image,
